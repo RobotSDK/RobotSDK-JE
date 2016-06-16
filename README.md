@@ -1,2 +1,2 @@
-# RobotSDK-JE-
+# RobotSDK-JE
 RobotSDK Java Edition
