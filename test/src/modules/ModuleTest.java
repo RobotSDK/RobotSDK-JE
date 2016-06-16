@@ -19,10 +19,4 @@ public class ModuleTest implements ProtoModule{
         return true;
     }
 
-    public static void main(String[] args){
-        ModuleTest module=new ModuleTest();
-        DataTest data=new DataTest();
-        boolean flag = module.moduleInitialize(data);
-        System.out.println(flag);
-    }
 }

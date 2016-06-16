@@ -7,12 +7,16 @@ import test.kernel.ProtoData;
  */
 public class DataTest extends ProtoData {
 
+    public DataTest(String initMsg){
+        super(initMsg);
+    }
+
     @Override
     public void showData() {
         System.out.println("Extended: "+msg);
     }
 
     public void showOtherData() {
-        System.out.println("otherData");
+        System.out.println("otherData: "+msg);
     }
 }

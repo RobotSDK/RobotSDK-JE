@@ -5,7 +5,11 @@ package test.kernel;
  */
 public class ProtoData {
 
-    protected String msg="Hello World";
+    protected String msg;
+
+    public ProtoData(String initMsg){
+        msg=initMsg;
+    }
 
     public  void showData(){
         System.out.println(msg);
